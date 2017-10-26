@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<!--Wong Jing Liang, 17/10/14.
+Homepage for WEB1201 assignment.-->
+<html>
+	<head>
+		<title>Homepage</title>
+		
+		<!--Placeholder for the CSS files, to-be swapped later.-->
+		<style>
+			body{
+				font-family: Sans-serif;
+			}
+			
+			div.Logo{
+				text-align: center;
+				width: 50em;
+				height: 10em;
+				background-color: #2D03AB;
+				border: 0.2em #84B2B8 solid;
+				margin: auto;
+				margin-bottom: 4em;
+			}
+			
+			div ul{
+				list-style-type: none;
+			}
+				
+			div.Navbar a{
+				text-decoration: none; 
+				background-color: #573E8D;
+				color: #A176FA;
+				padding: 1em;
+				border: 0.1em black solid;
+				margin: 0.3em;
+			}
+			
+			div.Navbar li{
+				display: inline;
+
+			}
+			
+			div.Product ul li{
+				text-align: center;
+				background-color: #68786A;
+				margin: 1em;
+			}
+		</style>
+	</head>
+	
+	<body>
+		<!--The top bar with website name and logo. Will make it as a img file as a whole-->
+		<div class="Logo">
+			<h1>OPAQUE</h1>
+		</div>
+		
+		<!--Navigation bar. Use it to unify all Navbar.
+		Need to put in the appropriate link in the "a" tags.-->
+		<div class="Navbar">
+			<ul>
+				<li><a href="Placeholder/Home">Home</a></li>
+				<li><a href="Placeholder/Product">Product</a></li>
+				<li><a href="Placeholder/About Us">About Us</a></li>
+				<li><a href="Placeholder/Contact Us">Contact Us</a></li>
+			</ul>
+		</div>
+		<br>
+		
+		<!--Making a list to display products in rectangular boxes.
+		INCOMPLETE!-->
+		<div class="Product">
+			<ul>
+				<li>
+					<h1 style="font-family: Serif">Product name</h1>
+					<p style="font-family: Sans-serif">Product detail</p>
+				</li>
+				<li>
+					<h1 style="font-family: Serif">Product name</h1>
+					<p style="font-family: Sans-serif">Product detail</p>
+				</li>
+				<li>
+					<h1 style="font-family: Serif">Product name</h1>
+					<p style="font-family: Sans-serif">Product detail</p>
+				</li>
+			</ul>
+			
+		</div>
+		
+		
+	</body>
+</html>
