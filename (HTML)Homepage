@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <!--Wong Jing Liang, 17/10/14.
-Homepage for WEB1201 assignment.-->
+Homepage for WEB1201 assignment.
+Edited 26/10/17.
+Added image file to div.Logo, finalized the product list. (All images used now are only placeholder,
+	that are to be changed later.-->
 <html>
 	<head>
 		<title>Homepage</title>
@@ -11,7 +14,7 @@ Homepage for WEB1201 assignment.-->
 				font-family: Sans-serif;
 			}
 			
-			div.Logo{
+			div.logo{
 				text-align: center;
 				width: 50em;
 				height: 10em;
@@ -25,7 +28,7 @@ Homepage for WEB1201 assignment.-->
 				list-style-type: none;
 			}
 				
-			div.Navbar a{
+			div.navBar a{
 				text-decoration: none; 
 				background-color: #573E8D;
 				color: #A176FA;
@@ -34,28 +37,38 @@ Homepage for WEB1201 assignment.-->
 				margin: 0.3em;
 			}
 			
-			div.Navbar li{
+			div.navBar li{
 				display: inline;
-
 			}
 			
-			div.Product ul li{
-				text-align: center;
-				background-color: #68786A;
-				margin: 1em;
+			div.product ul li{
+				text-align: left;
+				background-color: #68786A;;
+				height: 10em;
+			}
+			
+			div.productImg{
+				float: left;
+			}
+			
+			div.productImg img{
+				height= 8em;
+				width: 8em;
+				margin: 0.25em 0 0 0.5em;
 			}
 		</style>
 	</head>
 	
 	<body>
 		<!--The top bar with website name and logo. Will make it as a img file as a whole-->
-		<div class="Logo">
-			<h1>OPAQUE</h1>
+		<div class="logo">
+			<img src="http://www.seeklogo.com/images/O/Opaque-logo-8116B1459D-seeklogo.com.gif" style="float: left; height: 10em">
+			<h1 style="margin-top: 2em">OPAQUE</h1>
 		</div>
 		
 		<!--Navigation bar. Use it to unify all Navbar.
 		Need to put in the appropriate link in the "a" tags.-->
-		<div class="Navbar">
+		<div class="navBar">
 			<ul>
 				<li><a href="Placeholder/Home">Home</a></li>
 				<li><a href="Placeholder/Product">Product</a></li>
@@ -67,19 +80,34 @@ Homepage for WEB1201 assignment.-->
 		
 		<!--Making a list to display products in rectangular boxes.
 		INCOMPLETE!-->
-		<div class="Product">
+		<div class="product">
 			<ul>
 				<li>
-					<h1 style="font-family: Serif">Product name</h1>
-					<p style="font-family: Sans-serif">Product detail</p>
+					<div class="productImg">
+						<img src="http://blogs-images.forbes.com/geoffreymorrison/files/2014/08/oppo-pm-1-review.jpg">
+					</div>
+					<div>
+						<h1 style="font-family: Serif">Product name</h1>
+						<p style="font-family: Sans-serif">Product detail</p>
+					</div>
 				</li>
 				<li>
-					<h1 style="font-family: Serif">Product name</h1>
-					<p style="font-family: Sans-serif">Product detail</p>
+					<div class="productImg">
+						<img src="http://blogs-images.forbes.com/geoffreymorrison/files/2014/08/oppo-pm-1-review.jpg">
+					</div>
+					<div>
+						<h1 style="font-family: Serif">Product name</h1>
+						<p style="font-family: Sans-serif">Product detail</p>
+					</div>
 				</li>
 				<li>
-					<h1 style="font-family: Serif">Product name</h1>
-					<p style="font-family: Sans-serif">Product detail</p>
+					<div class="productImg">
+						<img src="http://blogs-images.forbes.com/geoffreymorrison/files/2014/08/oppo-pm-1-review.jpg">
+					</div>
+					<div>
+						<h1 style="font-family: Serif">Product name</h1>
+						<p style="font-family: Sans-serif">Product detail</p>
+					</div>
 				</li>
 			</ul>
 			
