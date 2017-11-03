@@ -1,1 +1,65 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Contact Us</title>
+<style>
+form { 
+background-color: #7FFFD4; 
+font-family: Arial, sans-serif; 
+padding :10px;
+}
+
+label { 
+float: left;
+width:100px; 
+clear : right;
+text-align: right; 
+padding-right: 10px;
+margin-top: 0px;
+ }
+
+textarea { 
+font-family: Arial, sans-serif; 
+margin-top: 10px; 
+display: block; 
+}
+</style>
+
+<script>
+function TheFormCheck() {
+if (document.Theform.FirstName.value=="")
+{
+alert ( "Please fill in all the information");
+}
+}
+
+</script>
+</head>
+<body>
+<h1>Contact Us</h1>
+<form method="post">
+<fieldset>
+<label for="myname">
+First Name:</label> <input type="text" name="fname" id="myname" size="50" maxlength="30"><br><br>
+<label for="myLName">Last Name:</label> <input type="text" name="lname" id="myLName"><br><br>
+<label for="myEmail">E-mail:</label> <input type="email" name="email" id="myEmail"><br><br>
+<label for="myGender">Gender: </label> <input type="radio" name="gender" id="myGender">Male&nbsp;&nbsp;<input type="radio" name="gender">Female<br><br>
+ 
+<label for="myInquiry">I would like to inquire about: </label><br>
+<select>
+  <option id="inquire1">Checking an order</option>
+  <option id="inquire2">Choosing a product</option>
+  <option id="inquire3">Technical support</option>
+  <option id="inquire4">product repairs</option>
+  <option id="inquire5">Others</option>
+</select><br><br>
+</fieldset><br><br>
+
+Comments:<br>
+<textarea name="comments" id="comments" rows="4" cols="20"></textarea><br><br>
+ <br><br>
+<input type="submit" value="Submit"> <input type="reset">
+</form>
+</body>
+</html>
