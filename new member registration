@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>User Signup</title>
+<head>
+<style>
+
+</style>
+</head>
+<body>
+<center>
+<form>
+<br><br>
+<h1>Sign up as member</h1>
+<br><br> 
+<b>Username: </b><input type="text" name="Uname" id="myuname" maxlength="10"><br><br>
+<b>Password: </b><input type="password" name="pword" id="pword" maxlength="10"><br><br>
+  
+<input type="submit" value="Register"> <input type="reset"><br><br><br>
+
+</form>
+</center>
+</body>
+</html>
